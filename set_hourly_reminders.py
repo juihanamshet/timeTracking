@@ -35,7 +35,7 @@ def main():
 
     service = build('calendar', 'v3', credentials=creds)
 
-    # calendar_list_entry = service.calendarList().get(calendarId='r1vbe4l7ra3vrh5kikivt4u704@group.calendar.google.com').execute()
+    # calendar_list_entry = service.calendarList().get(calendarId='primary').execute()
     # print(calendar_list_entry)
 
     event = {
